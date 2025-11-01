@@ -12,7 +12,7 @@ class Program
         {
             Console.WriteLine($"3/2 = {ProcedureDiv(3d, 2d)}");
             Console.WriteLine($"3/1 = {ProcedureDiv(3d, 1d)}");
-            Console.WriteLine($"3/4 = {ProcedureDiv(3d, 4d)}");
+            Console.WriteLine($"3/0 = {ProcedureDiv(3d, 0d)}");
         }
         catch (MyExpetion)
         {
